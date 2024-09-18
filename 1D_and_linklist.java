@@ -89,7 +89,7 @@ public class GraphMixed {
         graph.displayGraph();
     }
 }
-//แสดงผล
+// แสดงผล
 //Nodes:
 //0: A
 //1: B
@@ -100,12 +100,12 @@ public class GraphMixed {
 //6: J
 //7: K
 
-//Adjacency Matrix:
-//0 2 0 0 3 0 0 1 
-//2 0 7 0 0 0 0 1 
-//0 7 0 1 0 0 0 0 
-//0 0 1 0 2 0 0 1 
-//3 0 0 2 0 4 5 0 
-//0 0 0 0 4 0 0 0 
-//0 0 0 0 5 0 0 0 
-//1 1 0 1 0 0 0 0
+//Adjacency List:
+//A -> B(2) E(3) K(1) 
+//B -> A(2) K(1) C(7) 
+//C -> B(7) D(1) 
+//D -> C(1) E(2) K(1) 
+//E -> A(3) D(2) H(4) J(5) 
+//H -> E(4) 
+//J -> E(5) 
+//K -> A(1) B(1) D(1)
